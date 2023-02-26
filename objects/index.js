@@ -158,18 +158,18 @@ console.log({ Textbook1 });
  */
 
 const presidentialCandidates = {
-  'Omoyele Sowore': 'AAC',
-  'Christopher Imumolen': 'ACCORD',
-  'Bola Ahmed Tinubu': 'APC',
-  'Peter Obi': 'LP',
-  'Rabiu Kwankwaso': 'NNPP',
-  'Atiku Abubakar': 'PDP',
+  AAC: 'Omoyele Sowore',
+  ACCORD: 'Christopher Imumolen',
+  APC: 'Bola Ahmed Tinubu',
+  LP: 'Peter Obi',
+  NNPP: 'Rabiu Kwankwaso',
+  PDP: 'Atiku Abubakar',
   }
 
   //for..in loops
   for (const key in presidentialCandidates) {
-
-    console.log(key + " is the presidential candidate of " + presidentialCandidates[key]);
+  
+    console.log(presidentialCandidates[key] + " is the presidential candidate of " + key);
   }
 
 
